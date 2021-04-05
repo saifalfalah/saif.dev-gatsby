@@ -54,6 +54,21 @@ position: relative;
 }
 `
 
+const ProjectContainer = styled.div`
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+`
+
+const ProjectDeclaration = styled.p`
+  font-size: .8rem;
+  margin-bottom: 0;
+`
+
+// const ProjectLink = styled.a`
+
+// `
+
 
 const LandingBio = () => (
   <StaticQuery
@@ -89,6 +104,12 @@ const LandingBio = () => (
               LinkedIn
             </FollowItem>
           </FollowContainer>
+          <ProjectContainer>
+          <ProjectDeclaration>Pssst... Check out my latest project:</ProjectDeclaration>
+          <FollowItem href="https://www.tvdl.app/?ref=saifdev" target="_blank">
+          Twitter Video Downloader for Siri Shortcuts
+          </FollowItem>
+          </ProjectContainer>
         </Container>
       </OuterContainer>
     )}
