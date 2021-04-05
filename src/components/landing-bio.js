@@ -34,6 +34,7 @@ const FollowContainer = styled.div`
 const FollowItem = styled.a`
 text-decoration: none;
 position: relative;
+color: #007acc;
 
 ::after {
   content: "";
@@ -43,7 +44,7 @@ position: relative;
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: #007acc;
   transform-origin: bottom right;
   transition: transform 0.4s cubic-bezier(0.86, 0, 0.07, 1);
 }
