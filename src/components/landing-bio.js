@@ -105,9 +105,9 @@ const LandingBio = () => (
             </FollowItem>
           </FollowContainer>
           <ProjectContainer>
-          <ProjectDeclaration>Pssst... Check out my latest project:</ProjectDeclaration>
-          <FollowItem href="https://www.tvdl.app/?ref=saifdev" target="_blank">
-          Twitter Video Downloader for Siri Shortcuts
+            <ProjectDeclaration>Pssst... Check out my latest project:</ProjectDeclaration>
+            <FollowItem href="https://www.tvdl.app/?ref=saifdev" target="_blank">
+              Twitter Video Downloader for Siri Shortcuts
           </FollowItem>
           </ProjectContainer>
         </Container>
