@@ -26,6 +26,35 @@ const NameHeader = styled.h1`
   margin-bottom: 0;
 `
 
+const FollowContainer = styled.div`
+  display: flex;
+  justify-content: space-between;
+`
+
+const FollowItem = styled.a`
+text-decoration: none;
+position: relative;
+
+::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+  transform-origin: bottom right;
+  transition: transform 0.4s cubic-bezier(0.86, 0, 0.07, 1);
+}
+
+:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+`
+
+
 const LandingBio = () => (
   <StaticQuery
     query={graphql`
@@ -43,6 +72,23 @@ const LandingBio = () => (
         <Container>
           <NameHeader>Saif Al Falah</NameHeader>
           <Description>react developer</Description>
+          <FollowContainer>
+            <FollowItem href="mailto:hey@saif.dev" target="_blank">
+              Email
+            </FollowItem>
+            <FollowItem href="https://github.com/saifalfalah" target="_blank">
+              Github
+            </FollowItem>
+            <FollowItem href="https://twitter.com/saifalfalah" target="_blank">
+              Twitter
+            </FollowItem>
+            <FollowItem href="https://instagram.com/saif.dev" target="_blank">
+              Instagram
+            </FollowItem>
+            <FollowItem href="https://linkedin.com/in/saifalfalah" target="_blank">
+              LinkedIn
+            </FollowItem>
+          </FollowContainer>
         </Container>
       </OuterContainer>
     )}
