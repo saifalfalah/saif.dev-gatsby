@@ -35,6 +35,7 @@ const FollowItem = styled.a`
 text-decoration: none;
 position: relative;
 color: #737373;
+align-self: center;
 
 ::after {
   content: "";
@@ -109,6 +110,12 @@ const LandingBio = () => (
             <ProjectDeclaration>Pssst... Check out my latest project:</ProjectDeclaration>
             <FollowItem href="https://www.tvdl.app/?ref=saifdev" target="_blank">
               Twitter Video Downloader for Siri Shortcuts
+          </FollowItem>
+          </ProjectContainer>
+          <ProjectContainer>
+            <ProjectDeclaration>Currently working on:</ProjectDeclaration>
+            <FollowItem href="https://github.com/saifalfalah/ssyd-api" target="_blank">
+              SSYD
           </FollowItem>
           </ProjectContainer>
         </Container>
