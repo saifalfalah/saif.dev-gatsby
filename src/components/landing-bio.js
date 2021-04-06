@@ -99,9 +99,9 @@ const LandingBio = () => (
             <FollowItem href="https://twitter.com/saifalfalah" target="_blank">
               Twitter
             </FollowItem>
-            <FollowItem href="https://instagram.com/saif.dev" target="_blank">
+            {/* <FollowItem href="https://instagram.com/saif.dev" target="_blank">
               Instagram
-            </FollowItem>
+            </FollowItem> */}
             <FollowItem href="https://linkedin.com/in/saifalfalah" target="_blank">
               LinkedIn
             </FollowItem>
