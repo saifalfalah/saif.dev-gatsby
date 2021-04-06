@@ -28,7 +28,7 @@ const About = () => (
     <Container>
       <PageHeader>About Me</PageHeader>
       <Description>I am a React Developer focusing on making performant, modern web applications with clients in over 7 countries in the world. With over 4 years of experience as a freelance developer, I have had the experience and the privilege of working with companies ranging from as big as Fortune 100 to micro-startups around the world.</Description>
-      <Description>I primarily work on the MERN stack: React, Node, Firebase, Serverless, Express, Cloudflare Workers, Next.js, Vercel, Gatsby, GraphQL, MongoDB.</Description>
+      <Description>I primarily work on the MERN stack: React, Redux, Node, Firebase, Serverless, Express, Cloudflare Workers, Next.js, Vercel, Gatsby, GraphQL, MongoDB.</Description>
       <Description>I love learning and working on Side Projects such as <a href="https://www.tvdl.app" target="_blank">TVDL</a> and I am currently working on <a href="https://github.com/saifalfalah/ssyd-api" target="_blank">SSYD</a> combining Web Assembly and React.</Description>
       <Description>I'm open for challenging projects or paid consulting. To reach out to me, please email me at hey@saif.dev and I'll get back to you within 24 hours.
 

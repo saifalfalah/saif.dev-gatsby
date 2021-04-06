@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Saif Al Falah`,
-    subtitle: `react developer`,
-    description: `Saif Al Falah is a Freelance React Developer working on React, Redux, Node, Serverless and PWAs. Hire Him!`,
+    title: `Saif Al Falah - Freelance React Developer`,
+    subtitle: `freelance react developer`,
+    description: `Saif Al Falah is a Freelance React Developer working on React, Redux, Node, Serverless and more... Hire Him!`,
     author: `Saif Al Falah`,
   },
   plugins: [
