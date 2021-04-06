@@ -87,7 +87,7 @@ const LandingBio = () => (
       <OuterContainer>
         <Container>
           <NameHeader>Saif Al Falah</NameHeader>
-          <Description>react developer</Description>
+          <Description>freelance react developer</Description>
           <FollowContainer>
             <FollowItem href="mailto:hey@saif.dev" target="_blank">
               Email
