@@ -7,7 +7,6 @@ import About from '../components/about'
 const IndexPage = () => (
     <Layout>
         <SEO title="About Saif" />
-        <p>About Saif</p>
         <About />
     </Layout>
 )
