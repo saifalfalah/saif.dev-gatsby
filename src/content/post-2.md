@@ -5,20 +5,25 @@ draft: false
 path: "/blog/forgetting-about-eslintcache"
 ---
 
-## TLDR?
-This blog would be a way for me to just document whatever I am doing or learning at the moment. 
+With the release of React 17 and React Scripts 4.0.1, we came across .eslintcache that was not in .gitignore by default. The file, although beneficial, was super annoying when trying to run commands like `git diff`. Since .gitignore comes first in alphabetical order, one had to go through the entire changes to the .gitignore file before getting to the files that one was actually concerned about. After months of grappling with this annoying file, I decided to get rid of it once and for all.
 
-## Here goes nothing
-For a long long time, I wanted to remake my website using Gatsby which seemed to me like this perfect tool for React developers who wanted to blog. However, due to paucity of time and me always stuck under a deluge of work, that day never came. 
+Here, I document the steps:
 
-Today, I came across an aphorism widely attributed to Voltaire:
+### Step 1
+Add `.eslintcache` to `.gitignore` so that git no longer tracks it.
 
-> "Perfect is the enemy of good"
+### Step 2
+Now we just need to remove this file from our current working directory as well as from origin. For this, we run:
 
-which made me think.
+```bash
+git rm --cached .eslintcache
+```
 
-I realized that the perfect time where I would be free to work on my personal website will never come. Therefore, today I decided to take action and build my blog using one of the many Gatsby Starters that are available right now. I like Simplicity so the [Julia Starter](https://github.com/niklasmtj/gatsby-starter-julia) seemed like the perfect fit for me. I modified the starter, added a few pages, sprinkled some styles here and there, and in a couple of hours, I had completed the website.
+And viola, the .eslintcache has been removed for git forever.
 
-I now have a blog which I can use to document whatever it is that I am learning at the moment. I have also wanted to write about my side projects especially about my monetization strategy of TVDL which I am really excited about because nobody (that I know) has successfully been able to monetize a Siri Shortcut. 
+---
+References
 
-My next few blog posts will be about just that. Till then, as Voltaire would have said it, au revoir.
+1. https://stackoverflow.com/questions/1274057/how-to-make-git-forget-about-a-file-that-was-tracked-but-is-now-in-gitignore
+
+2. https://stackoverflow.com/questions/1274057/how-to-make-git-forget-about-a-file-that-was-tracked-but-is-now-in-gitignore
